@@ -39,7 +39,7 @@ justify.addEventListener("click", () => {
   align("justify");
 });
 
-input.addEventListener("change", (e) => {
+input.addEventListener("input", (e) => {
   textarea.style.fontSize = e.target.value + "px";
 });
 
